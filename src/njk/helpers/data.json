@@ -1,0 +1,10 @@
+{
+    "title": "Real Home",
+    "nav": {
+        "index": "Home",
+        "about": "About Us",
+        "property": "Property",
+        "ourblog": "Our Blog",
+        "contacts": "Contacts"
+    }
+}

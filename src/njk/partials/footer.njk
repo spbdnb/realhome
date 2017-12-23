@@ -1,0 +1,10 @@
+
+					<nav class="bottom_nav">
+						<ul>
+							{% for link, title in data.nav %}
+								<li><a href="{{link}}.html" {% if link==page %}class="active"{% endif %}>{{ title }}</a></li>
+							{% endfor %}
+							<li><a href="search-1.html" class="icon icon-search"></a></li>
+						</ul>
+					</nav>
+					

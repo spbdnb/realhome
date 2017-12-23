@@ -1,0 +1,10 @@
+bower_components/
+node_modules/
+/assets/
+build/
+PSD/
+_/
+.idea/
+
+*.zip
+*.map

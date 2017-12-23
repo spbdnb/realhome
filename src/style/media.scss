@@ -1,0 +1,147 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media screen and (max-width : 1200px) {
+	.top-navigation {
+  		margin: 30px 40px;
+	}
+	.top-navigation--menu a {
+		padding: 30px 20px;
+	}
+	.top-navigation--menu-social a {
+		padding: 5px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media screen and (max-width : 992px) {
+	.carousel-indicators {
+    	bottom: 200px;
+  	}
+  	.carousel-caption h2 {
+		font-size: 36px;
+
+	}
+	.carousel-caption p {
+		font-size: 30px;
+
+	}
+	.top-navigation--logo {
+		margin-top: -3px;
+	}
+	.top-navigation--menu {
+		font-size: 16px;
+	}
+	.top-navigation {
+  		margin: 20px 20px;
+	}
+	.top-navigation--menu a {
+		padding: 20px 10px;
+	}
+	.top-navigation--menu-social a {
+		padding: 4px;
+	}
+	.carousel-caption--btn {
+		font-size: 16px;
+		padding: 10px;
+		margin-left: 20px;
+	}
+	
+}
+
+/* Small Devices, Tablets */
+@media screen and (max-width : 768px) {
+	.carousel-indicators {
+    	bottom: 150px;
+  	}
+  	.carousel-caption h2 {
+		font-size: 30px;
+
+	}
+	.carousel-caption p {
+		font-size: 20px;
+		margin-right: 0;
+	}
+	.top-navigation {
+		display: none;
+	}
+	.carousel-caption--btn {
+		font-size: 14px;
+		padding: 8px;
+		margin-left: 15px;
+		position: relative;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media screen and (max-width : 480px) {
+	.carousel-indicators {
+   		bottom: 120px;
+  	}
+  	.carousel-caption h2 {
+		font-size: 22px;
+
+	}
+	.carousel-caption p {
+		font-size: 14px;
+
+	}
+	.carousel-caption--btn {
+		font-size: 12px;
+		padding: 7px;
+		margin-left: 10px;
+		position: relative;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media screen and (max-width : 320px) {
+	.carousel-indicators {
+    	bottom: 100px;
+  }
+  	.carousel-caption h2 {
+		font-size: 18px;
+
+	}
+	.carousel-caption p {
+		font-size: 12px;
+
+	}
+	.carousel-caption--btn {
+		font-size: 10px;
+		padding: 6px;
+		margin-left: 10px;
+		position: relative;
+	}
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media screen and (min-width : 768px) {
+	.navbar-bootstrap-wrap {
+		display: none;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media screen and (min-width : 992px) {
+	.carousel-indicators {
+    	bottom: 250px;
+  	}
+}
+
+ /* Large Devices, Wide Screens */
+@media screen and (min-width : 1200px) {
+
+}
