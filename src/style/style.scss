@@ -130,37 +130,44 @@ body {
 .top-navigation--logo {
 	font-size: 1.6em;
 	float: left;
-	margin-top: -7px;
+	margin-top: -12px;
+	display: block;
+	position: relative;
+	box-sizing: border-box;
+	border: 3px solid #3c3c3c;
 }
 .top-navigation--logo a {
-	padding: 8px 16px 8px 16px;
-	color: #494949;
+	padding: 0.25em;
+	color: #3c3c3c;
 	font-weight: 300;
 	text-transform: uppercase;
 	text-decoration: none;
-	background-image: url(assets/img/logo-wrap.png);
-	background-repeat: no-repeat;
+	z-index: 10;
+	display: block;
+	position: relative;
 }
 .top-navigation--logo a span {
-	color: #3c3c3c;
 	font-weight: 700;
 }
-.navbar-header--logo {
-	font-size: 1.6em;
-	margin: 12px 20px;
+.top-navigation--logo:before,
+.top-navigation--logo:after {
+	content: '';
+	position: absolute;
+	display: block;
+	z-index: 0;
+	background-color: #fff;
 }
-.navbar-header--logo a {
-	padding: 14px 16px 8px 16px;
-	color: #494949;
-	font-weight: 300;
-	text-transform: uppercase;
-	text-decoration: none;
-	background-image: url(assets/img/logo-wrap.png);
-	background-repeat: no-repeat;
+.top-navigation--logo:before {
+	left: 10px;
+	right: 10px;
+	top: -3px;
+	bottom: -3px;
 }
-.navbar-header--logo a span {
-	color: #3c3c3c;
-	font-weight: 700;
+.top-navigation--logo:after {
+	left: -3px;
+	right: -3px;
+	top: 10px;
+	bottom: 10px;
 }
 .top-navigation--menu {
 	font-size: 18px;
@@ -185,7 +192,6 @@ a.active {
 	float: right;
 }
 .top-navigation--menu-social li {
-	display: inline-block;
 	margin-left: 5px;
 }
 .top-navigation--menu-social li:first-child {
@@ -195,8 +201,6 @@ a.active {
 	padding: 6px;
 	border: 1px solid #f2f2f2;
 	border-radius: 50%;
-	text-decoration: none;
-	color: #3c3c3c;
 }
 .navbar--menu {
 	font-size: 18px;
