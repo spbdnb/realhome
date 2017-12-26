@@ -58,12 +58,6 @@ sub {
 svg:not(:root) {
   overflow: hidden;
 }
-hr {
-  height: 0;
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box;
-}
 pre {
   overflow: auto;
 }
@@ -175,16 +169,6 @@ textarea {
   }
   img {
     max-width: 100% !important;
-  }
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
-  h2,
-  h3 {
-    page-break-after: avoid;
   }
   .navbar {
     display: none;
@@ -1066,12 +1050,6 @@ img {
 }
 .img-circle {
   border-radius: 50%;
-}
-hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 0;
-  border-top: 1px solid #eee;
 }
 .sr-only {
   position: absolute;

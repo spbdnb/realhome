@@ -11,18 +11,72 @@
 	.top-navigation--menu-social a {
 		padding: 5px;
 	}
+	.deals {
+		margin: 80px 100px 100px 100px;
+	}
+	.deals--best-deals {
+		font-size: 32px;
+		line-height: 44px;
+	}
+	.description {
+		margin: 0 100px 100px 100px;
+	}
+	.carousel-caption--info {
+		bottom: 70px;
+	}
+	.properties--home-bottom {
+		width: 60%;
+	}
+	.workman {
+		margin: 80px 100px 0 100px;
+	}
+	.carousel-caption-workman {
+		width: 55%;
+	}
+	.item-workman {
+		width: 45%;
+	}
+	.carousel-indicators-workman {
+		left: 75%;
+	}
+	.carousel-caption-workman h2 {
+		font-size: 40px;
+	}
+	.carousel-caption-workman hr {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.carousel-caption-workman p {
+		margin-top: 25px;
+		margin-bottom: 30px;
+	}
+	.buying {
+		margin: 0 100px;
+		text-align: center;
+	}
+	.buying h1 {
+		float: none;
+		padding: 40px 0;
+	}
+	.buying-btn {
+		float: none;
+		margin-top: 0;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media screen and (max-width : 992px) {
-	.carousel-indicators {
+	.carousel-point {
     	bottom: 200px;
   	}
-  	.carousel-caption h2 {
+  	.carousel-caption--info {
+		bottom: 50px;
+	}
+  	.carousel-caption--info h2 {
 		font-size: 36px;
 
 	}
-	.carousel-caption p {
+	.carousel-caption--info p {
 		font-size: 30px;
 
 	}
@@ -46,19 +100,82 @@
 		padding: 10px;
 		margin-left: 20px;
 	}
-	
+	.deals {
+		margin: 70px 80px 80px 80px;
+	}
+	.deals--best-deals {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.description {
+		margin: 0 80px 80px 80px;
+	}
+	.properties--home-line {
+		width: 12%;
+	}
+	.properties--home-bottom {
+		width: 70%;
+	}
+	.properties--sale {
+		width: 46%;
+	}
+	.workman {
+		margin: 70px 80px 0 80px;
+	}
+	.carousel-caption-workman {
+		width: 50%;
+	}
+	.item-workman {
+		width: 50%;
+	}
+	.item-workman img {
+		width: 93%;
+		height: auto;
+	}
+	.carousel-indicators-workman {
+		left: 92%;
+	}
+	.carousel-caption-workman h2 {
+		font-size: 36px;
+	}
+	.carousel-caption-workman h3 {
+		font-size: 20px;
+	}
+	.carousel-caption-workman hr {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.carousel-caption-workman p {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		line-height: 18px;
+		font-size: 14px;
+	}
+	.carousel-caption-workman li {
+		display: block;
+	}
+	.carousel-caption-workman li:last-child {
+		margin-left: 0;
+		margin-top: 15px;
+	}
+	.buying {
+		margin: 0 80px;
+	}
 }
 
 /* Small Devices, Tablets */
 @media screen and (max-width : 768px) {
-	.carousel-indicators {
+	.carousel-point {
     	bottom: 150px;
   	}
-  	.carousel-caption h2 {
+  	.carousel-caption--info {
+		bottom: 40px;
+	}
+  	.carousel-caption--info h2 {
 		font-size: 30px;
 
 	}
-	.carousel-caption p {
+	.carousel-caption--info p {
 		font-size: 20px;
 		margin-right: 0;
 	}
@@ -71,18 +188,95 @@
 		margin-left: 15px;
 		position: relative;
 	}
+	.deals {
+		margin: 60px 60px 20px 60px;
+	}
+	.deals--best-deals {
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+		width: 60%;
+	}
+	.deals--description {
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+		width: 100%;
+		font-size: 14px;
+	}
+	.deals--best-deals-line {
+		margin: 40px auto;
+		width: 25%;
+		height: 1px;
+	}
+	.description {
+		margin: 0 60px 60px 60px;
+	}
+	.description--description-wrap {
+		float: left;
+		width: 45%;
+		text-align: center;
+		margin: 0 2.5%;
+	}
+	.description--icon {
+		margin-top: 60px;
+	}
+	.properties--home-top {
+		margin-top: 60px;
+	}
+	.properties--home-line {
+		width: 14%;
+	}
+	.properties--home-bottom {
+		width: 80%;
+	}
+	.properties--sale {
+		width: 98%;
+	}
+	.item-workman img {
+		width: 80%;
+		height: auto;
+	}
+	.workman {
+		margin: 60px 60px 30px 60px;
+	}
+	.carousel-caption-workman {
+		width: 70%;
+	}
+	.item-workman {
+		width: 30%;
+	}
+	.item-workman img {
+		width: 80%;
+		height: auto;
+	}
+	.carousel-caption-workman li {
+		display: block;
+	}
+	.carousel-caption-workman li a {
+		font-size: 14px;
+	}
+	.carousel-indicators-workman {
+		left: 50%;
+		top: -10%;
+	}
+	.buying {
+		margin: 0 60px;
+	}
 }
-
 /* Extra Small Devices, Phones */
 @media screen and (max-width : 480px) {
-	.carousel-indicators {
+	.carousel-point {
    		bottom: 120px;
   	}
-  	.carousel-caption h2 {
+  	.carousel-caption--info {
+		bottom: 30px;
+	}
+  	.carousel-caption--info h2 {
 		font-size: 22px;
 
 	}
-	.carousel-caption p {
+	.carousel-caption--info p {
 		font-size: 14px;
 
 	}
@@ -92,18 +286,63 @@
 		margin-left: 10px;
 		position: relative;
 	}
+	.deals--best-deals {
+		width: 80%;
+	}
+	.deals {
+		margin: 50px 40px 20px 40px;
+	}
+	.description {
+		margin: 0 40px 60px 40px;
+	}
+	.description--description-wrap {
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.description--icon {
+		margin-top: 60px;
+	}
+	.properties--home-top {
+		margin-top: 50px;
+	}
+	.properties--home-line {
+		width: 20%;
+	}
+	.properties--home-bottom {
+		width: 90%;
+	}
+	.workman {
+		margin: 50px 40px 30px 40px;
+	}
+	.carousel-caption-workman h2 {
+		font-size: 26px;
+	}
+	.carousel-indicators-workman {
+		top: -8%;
+	}
+	.carousel-caption-workman p {
+		font-size: 12px;
+	}
+	.carousel-caption-workman li a {
+		font-size: 12px;
+	}
+	.buying {
+		margin: 0 40px;
+	}
 }
 
 /* Custom, iPhone Retina */
 @media screen and (max-width : 320px) {
-	.carousel-indicators {
+	.carousel-point {
     	bottom: 100px;
   }
-  	.carousel-caption h2 {
+  	.carousel-caption--info h2 {
 		font-size: 18px;
 
 	}
-	.carousel-caption p {
+	.carousel-caption--info p {
 		font-size: 12px;
 
 	}
@@ -113,6 +352,19 @@
 		margin-left: 10px;
 		position: relative;
 	}
+	.deals {
+		margin: 50px 30px 60px 30px;
+	}
+	.description {
+		margin: 0 30px 60px 30px;
+	}
+	.workman {
+		margin: 50px 30px 30px 30px;
+	}
+	.buying {
+		margin: 0 30px;
+	}
+	
 }
 
 /*==========  Mobile First Method  ==========*/
@@ -136,7 +388,7 @@
 
 /* Medium Devices, Desktops */
 @media screen and (min-width : 992px) {
-	.carousel-indicators {
+	.carousel-point {
     	bottom: 250px;
   	}
 }
