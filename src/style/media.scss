@@ -11,15 +11,12 @@
 	.top-navigation--menu-social a {
 		padding: 5px;
 	}
-	.deals {
+	.container {
 		margin: 80px 100px 100px 100px;
 	}
 	.deals--best-deals {
 		font-size: 32px;
 		line-height: 44px;
-	}
-	.description {
-		margin: 0 100px 100px 100px;
 	}
 	.carousel-caption--info {
 		bottom: 70px;
@@ -72,7 +69,7 @@
   	.carousel-caption--info {
 		bottom: 50px;
 	}
-  	.carousel-caption--info h2 {
+  	.carousel-caption-title {
 		font-size: 36px;
 
 	}
@@ -100,15 +97,12 @@
 		padding: 10px;
 		margin-left: 20px;
 	}
-	.deals {
+	.container {
 		margin: 70px 80px 80px 80px;
 	}
 	.deals--best-deals {
 		font-size: 30px;
 		line-height: 40px;
-	}
-	.description {
-		margin: 0 80px 80px 80px;
 	}
 	.properties--home-line {
 		width: 12%;
@@ -116,8 +110,8 @@
 	.properties--home-bottom {
 		width: 70%;
 	}
-	.properties--sale {
-		width: 46%;
+	.properties--sale-post {
+		width: 46.7%;
 	}
 	.workman {
 		margin: 70px 80px 0 80px;
@@ -171,7 +165,7 @@
   	.carousel-caption--info {
 		bottom: 40px;
 	}
-  	.carousel-caption--info h2 {
+  	.carousel-caption-title {
 		font-size: 30px;
 
 	}
@@ -192,7 +186,7 @@
 		margin-left: 15px;
 		position: relative;
 	}
-	.deals {
+	.container {
 		margin: 60px 60px 20px 60px;
 	}
 	.deals--best-deals {
@@ -214,7 +208,7 @@
 		height: 1px;
 	}
 	.description {
-		margin: 0 60px 60px 60px;
+		margin-top: 0;
 	}
 	.description--description-wrap {
 		float: left;
@@ -234,8 +228,9 @@
 	.properties--home-bottom {
 		width: 80%;
 	}
-	.properties--sale {
-		width: 98%;
+	.properties--sale-post {
+		width: 95%;
+		margin: 2.5%;
 	}
 	.item-workman img {
 		width: 80%;
@@ -276,7 +271,7 @@
   	.carousel-caption--info {
 		bottom: 30px;
 	}
-  	.carousel-caption--info h2 {
+  	.carousel-caption-title {
 		font-size: 22px;
 
 	}
@@ -293,11 +288,8 @@
 	.deals--best-deals {
 		width: 80%;
 	}
-	.deals {
+	.container {
 		margin: 50px 40px 20px 40px;
-	}
-	.description {
-		margin: 0 40px 60px 40px;
 	}
 	.description--description-wrap {
 		float: none;
@@ -342,7 +334,7 @@
 	.carousel-point {
     	bottom: 100px;
   }
-  	.carousel-caption--info h2 {
+  	.carousel-caption-title {
 		font-size: 18px;
 
 	}
@@ -356,11 +348,8 @@
 		margin-left: 10px;
 		position: relative;
 	}
-	.deals {
+	.container {
 		margin: 50px 30px 60px 30px;
-	}
-	.description {
-		margin: 0 30px 60px 30px;
 	}
 	.workman {
 		margin: 50px 30px 30px 30px;
