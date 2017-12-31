@@ -135,6 +135,8 @@ body {
 	position: relative;
 	box-sizing: border-box;
 	border: 3px solid #3c3c3c;
+	font-family: "RalewayLight", sans-serif;
+	font-weight: 300;
 }
 .top-navigation--logo a {
 	padding: 0.25em;
@@ -148,6 +150,7 @@ body {
 }
 .top-navigation--logo a span {
 	font-weight: 700;
+	font-family: "RalewayBold", sans-serif;
 }
 .top-navigation--logo:before,
 .top-navigation--logo:after {
@@ -185,7 +188,7 @@ body {
 	color: #3c3c3c;
 	font-family: 'Playfair Display', sans-serif;
 }
-a.active {
+a.active-top-navigation {
 	background-color: #f2f2f2;
 }
 .top-navigation--menu-social {
@@ -454,13 +457,13 @@ a.active {
 	float: left;
 	width: 63%;
 }
-.carousel-caption-workman h2 {
+.carousel-caption-workman-title {
 	color: #3c3c3c;
 	font-family: "RalewayLight", sans-serif;
 	font-weight: 300;
 	font-size: 45px;
 }
-.carousel-caption-workman h2 span {
+.carousel-caption-workman-title span {
 	font-weight: 500;
 	font-family: "RalewayMedium", sans-serif;
 }
@@ -474,7 +477,7 @@ a.active {
 	border: 1px solid #e2574c;
 	border-radius: 4px;
 }
-.carousel-caption-workman h3 {
+.carousel-caption-workman-name {
 	font-family: "Playfair Display", sans-serif;
 	font-weight: 700;
 	color: #3c3c3c;
@@ -510,14 +513,14 @@ a.active {
 .buying {
 	margin: 0 130px;
 }
-.buying h1 {
+.buying--title {
 	float: left;
 	padding: 50px 0;
 	font-size: 37px;
 	font-weight: 300;
 	font-family: "RalewayLight", sans-serif;
 }
-.buying h1 span {
+.buying--title span {
 	font-weight: 700;
 	font-family: "RalewayBold", sans-serif;
 }
@@ -528,20 +531,203 @@ a.active {
 	border: 1px solid #e2574c;
 	border-radius: 3px;
 	padding: 15px 25px;
-	cursor: pointer;
-}
-.buying-btn a {
-	text-decoration: none;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-family: "RalewayBold", sans-serif;
+	cursor: pointer;
 }
 .carousel-glyphicon {
-	position: absolute;
 	top: 50%;
 	font-size: 2em;
 }
 .carousel-indicators-bottom {
-	bottom: 10%;
+	bottom: 25%;
+}
+.carousel-caption-bottom {
+	bottom: 0;
+	top: 25%;
+}
+.carousel-caption-bottom--title {
+	font-size: 45px;
+	font-family: "RalewayMedium", sans-serif;
+	font-weight: 500;
+}
+.carousel-caption-bottom--line {
+	width: 17%;
+	height: 2px;
+	background-color: #e2574c;
+	border: 1px solid #e2574c;
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.carousel-caption-bottom--text {
+	font-size: 24px;
+	line-height: 35px;
+}
+.carousel-caption-bottom--cite {
+	font-size: 20px;
+	font-family: "Playfair Display", sans-serif;
+	font-weight: 400;
+	margin-top: 40px;
+}
+.partners {
+	width: 25%;
+	float: left;
+}
+.partners--title {
+	font-family: "RalewayLight", sans-serif;
+	font-weight: 300;
+	font-size: 28px;
+	color: #3c3c3c;
+}
+.partners--title span {
+	font-family: "RalewayMedium", sans-serif;
+	font-weight: 500;
+}
+.partners--logo {
+	float: left;
+	width: 14%;
+	margin: 2%;
+	text-align: center;
+}
+.techstart-logo {
+	margin-top: -2px;
+}
+.swan-logo {
+	margin-top: -27px;
+}
+.audiopro-logo {
+	margin-top: 6px;
+}
+.strongwave-logo {
+	margin-top: 8px;
+}
+.bottom-menu {
+	background-color: #303030;
+	color: #fff;
+}
+.bottom-menu--container {
+	margin: 0 130px;
+}
+.bottom-menu-nav {
+	float: left;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.bottom-menu--logo {
+	width: 25%;
+}
+.bottom-menu--navigation {
+	width: 25%;
+}
+.bottom-menu--clients {
+	width: 25%;
+}
+.bottom-menu--contacts {
+	width: 25%;
+}
+.bottom-menu--logo-wrap {
+	font-size: 1.6em;
+	float: left;
+	margin-top: -10px;
+	display: block;
+	position: relative;
+	box-sizing: border-box;
+	border: 3px solid #acacac;
+	font-family: "RalewayLight", sans-serif;
+	font-weight: 300;
+}
+.bottom-menu--logo-wrap a {
+	padding: 0.25em;
+	color: #acacac;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-decoration: none;
+	z-index: 10;
+	display: block;
+	position: relative;
+}
+.bottom-menu--logo-wrap a span {
+	font-weight: 700;
+	font-family: "RalewayBold", sans-serif;
+}
+.bottom-menu--logo-wrap:before,
+.bottom-menu--logo-wrap:after {
+	content: '';
+	position: absolute;
+	display: block;
+	z-index: 0;
+	background-color: #303030;
+}
+.bottom-menu--logo-wrap:before {
+	left: 10px;
+	right: 10px;
+	top: -3px;
+	bottom: -3px;
+}
+.bottom-menu--logo-wrap:after {
+	left: -3px;
+	right: -3px;
+	top: 10px;
+	bottom: 10px;
+}
+.bottom-menu-social {
+	position: absolute;
+	margin-top: 60px;
+}
+.bottom-menu-social li {
+	display: inline-block;
+	margin-left: 6px;
+}
+.bottom-menu-social li:first-child {
+	margin-left: 0;
+}
+.bottom-menu-social li a {
+	font-size: 18px;
+	color: #303030;
+	text-decoration: none;
+	padding: 6px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+.bottom-menu--navigation-title {
+	font-family: "RalewayLight", sans-serif;
+	font-weight: 300;
+	margin-bottom: 35px;
+	font-size: 28px;
+}
+.bottom-menu--navigation-link ul {
+	list-style-type: none;
+}
+.bottom-menu--navigation-link li {
+	margin-bottom: 20px;
+}
+.bottom-menu--navigation-link li:last-child {
+	margin-bottom: 0;
+}
+.bottom-menu--navigation-link li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: "Playfair Display", sans-serif;
+	font-size: 15px;
+}
+.bottom-menu--contacts p {
+	margin-bottom: 15px;
+}
+.bottom-menu--contacts-info {
+	font-family: "Playfair Display", sans-serif;
+	font-size: 15px;
+}
+.bottom-menu--contacts-info a {
+	text-decoration: none;
+	color: #fff;
+}
+.bottom-menu--contacts-mail {
+	text-decoration: none;
+	color: #e2574c;
+	font-family: "Playfair Display", sans-serif;
+	font-size: 15px;
 }

@@ -1,10 +1,49 @@
-
-					<nav class="bottom_nav">
-						<ul>
-							{% for link, title in data.nav %}
-								<li><a href="{{link}}.html" {% if link==page %}class="active"{% endif %}>{{ title }}</a></li>
-							{% endfor %}
-							<li><a href="search-1.html" class="icon icon-search"></a></li>
-						</ul>
-					</nav>
-					
+<footer class="bottom-menu">
+	<div class="bottom-menu--container">
+		<div class="row">
+			<article class="bottom-menu-nav bottom-menu--logo">
+				<h1 class="bottom-menu--logo-wrap"><a href="index.html">Real<span>Home</span></a></h1>
+				<nav>
+					<ul class="bottom-menu-social">
+						<li><a href="https://www.facebook.com/" class="icon icon-facebook" target="_blank"></a></li>
+						<li><a href="https://www.pinterest.com/" class="icon icon-pinterest" target="_blank"></a></li>
+						<li><a href="https://www.instagram.com/" class="icon icon-instagram" target="_blank"></a></li>
+						<li><a href="https://plus.google.com/" class="icon icon-google-plus3" target="_blank"></a></li>
+					</ul>
+				</nav>
+			</article>
+			<article class="bottom-menu-nav bottom-menu--navigation">
+				<h1 class="bottom-menu--navigation-title">Navigation</h1>
+				<nav class="bottom-menu--navigation-link">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Property</a></li>
+						<li><a href="#">Gallery</a></li>
+						<li><a href="#">Our Blog</a></li>
+						<li><a href="#">Contacts</a></li>
+					</ul>
+				</nav>
+			</article>
+			<article class="bottom-menu-nav bottom-menu--clients">
+				<h1 class="bottom-menu--navigation-title">For clients</h1>
+				<nav class="bottom-menu--navigation-link">
+					<ul>
+						<li><a href="#">Sign in</a></li>
+						<li><a href="#">Forum</a></li>
+						<li><a href="#">Promotions</a></li>
+						<li><a href="#">News</a></li>
+					</ul>
+				</nav>
+			</article>
+			<article class="bottom-menu-nav bottom-menu--contacts">
+				<h1 class="bottom-menu--navigation-title">Contact us</h1>
+				<p class="bottom-menu--contacts-info"><a href="https://www.google.com.ua/maps/search/240+Central+Park,+London+OR+10019/@40.7674657,-73.983261,17z/data=!3m1!4b1" target="_blank">240 Central Park, London OR 10019</a></p>
+				<p class="bottom-menu--contacts-info">Freephone: <a href="tel:+18005596580">+1 800 559 6580</a></p>
+				<p class="bottom-menu--contacts-info">Telephone: <a href="tel:+19596036035">+1 959 603 6035</a></p>
+				<p class="bottom-menu--contacts-info">FAX: <a href="tel:+18005596580">+1 800 559 6580</a></p>
+				<a href="mailto:info@realhome.com" class="bottom-menu--contacts-mail">info@realhome.com</a>
+			</article>
+		</div>
+	</div>
+</footer>

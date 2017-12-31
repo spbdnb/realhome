@@ -36,7 +36,7 @@
 	.carousel-indicators-workman {
 		left: 75%;
 	}
-	.carousel-caption-workman h2 {
+	.carousel-caption-workman-title {
 		font-size: 40px;
 	}
 	.carousel-caption-workman hr {
@@ -51,13 +51,22 @@
 		margin: 0 100px;
 		text-align: center;
 	}
-	.buying h1 {
+	.buying--title {
 		float: none;
 		padding: 40px 0;
 	}
 	.buying-btn {
 		float: none;
 		margin-top: 0;
+	}
+	.carousel-indicators-bottom {
+		bottom: 15%;
+	}
+	.carousel-caption-bottom {
+		top: 15%;
+	}
+	.bottom-menu--container {
+		margin: 0 100px;
 	}
 }
 
@@ -129,10 +138,10 @@
 	.carousel-indicators-workman {
 		left: 92%;
 	}
-	.carousel-caption-workman h2 {
+	.carousel-caption-workman-title {
 		font-size: 36px;
 	}
-	.carousel-caption-workman h3 {
+	.carousel-caption-workman-name {
 		font-size: 20px;
 	}
 	.carousel-caption-workman hr {
@@ -154,6 +163,78 @@
 	}
 	.buying {
 		margin: 0 80px;
+	}
+	.carousel-caption-bottom--title {
+		font-size: 40px;
+	}
+	.carousel-caption-bottom--line {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.carousel-caption-bottom--text {
+		font-size: 22px;
+		line-height: 27px;
+	}
+	.carousel-caption-bottom--cite {
+		font-size: 20px;
+		margin-top: 30px;
+	}
+	.partners {
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.partners--logo {
+		float: left;
+		width: 21%;
+		margin: 2%;
+	}
+	.techstart-logo {
+		margin-top: -2px;
+	}
+	.swan-logo {
+		margin-top: -27px;
+	}
+	.audiopro-logo {
+		margin-top: 6px;
+	}
+	.strongwave-logo {
+		margin-top: 8px;
+	}
+	.bottom-menu--container {
+		margin: 0 80px;
+	}
+	.bottom-menu--logo {
+		width: 25%;
+	}
+	.bottom-menu--navigation {
+		width: 75%;
+		float: right;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.bottom-menu--clients {
+		width: 75%;
+		float: right;
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 50px;
+	}
+	.bottom-menu--contacts {
+		width: 75%;
+		float: right;
+		text-align: center;
+		margin-top: 0;
+	}
+	.bottom-menu--navigation-title {
+		margin-bottom: 20px;
+	}
+	.bottom-menu--navigation-link li {
+		margin-bottom: 10px;
+	}
+	.bottom-menu--contacts p {
+		margin-bottom: 10px;
 	}
 }
 
@@ -262,6 +343,47 @@
 	.buying {
 		margin: 0 60px;
 	}
+	.carousel-indicators-bottom {
+		bottom: 7%;
+	}
+	.carousel-caption-bottom {
+		top: 13%;
+	}
+	.carousel-caption-bottom--title {
+		font-size: 34px;
+	}
+	.carousel-caption-bottom--line {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.carousel-caption-bottom--text {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.carousel-caption-bottom--cite {
+		font-size: 12px;
+		margin-top: 15px;
+	}
+	.partners--logo {
+		float: left;
+		width: 46%;
+		margin: 2%;
+	}
+	.techstart-logo {
+		margin-top: -2px;
+	}
+	.swan-logo {
+		margin-top: -27px;
+	}
+	.audiopro-logo {
+		margin-top: 23px;
+	}
+	.strongwave-logo {
+		margin-top: -40px;
+	}
+	.bottom-menu--container {
+		margin: 0 60px;
+	}
 }
 /* Extra Small Devices, Phones */
 @media screen and (max-width : 480px) {
@@ -312,7 +434,7 @@
 	.workman {
 		margin: 50px 40px 30px 40px;
 	}
-	.carousel-caption-workman h2 {
+	.carousel-caption-workman-title {
 		font-size: 26px;
 	}
 	.carousel-indicators-workman {
@@ -326,6 +448,68 @@
 	}
 	.buying {
 		margin: 0 40px;
+	}
+	.buying {
+		margin: 0 60px;
+	}
+	.carousel-indicators-bottom {
+		bottom: 3%;
+	}
+	.carousel-caption-bottom {
+		top: 4%;
+	}
+	.carousel-caption-bottom--title {
+		font-size: 26px;
+	}
+	.carousel-caption-bottom--line {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.carousel-caption-bottom--text {
+		font-size: 12px;
+		line-height: 12px;
+	}
+	.carousel-caption-bottom--cite {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	.partners--logo {
+		float: none;
+		width: 100%;
+	}
+	.techstart-logo {
+		margin-top: 30px;
+	}
+	.swan-logo {
+		margin-top: 30px;
+	}
+	.audiopro-logo {
+		margin-top: 30px;
+	}
+	.strongwave-logo {
+		margin-top: 30px;
+	}
+	.bottom-menu--container {
+		margin: 0 40px;
+	}
+	.bottom-menu--logo {
+		width: 100%;
+	}
+	.bottom-menu--navigation {
+		width: 100%;
+		float: left;
+		text-align: left;
+		margin-top: 20px;
+	}
+	.bottom-menu--clients {
+		width: 100%;
+		float: left;
+		text-align: left;
+	}
+	.bottom-menu--contacts {
+		width: 100%;
+		float: left;
+		text-align: left;
 	}
 }
 
@@ -355,6 +539,9 @@
 		margin: 50px 30px 30px 30px;
 	}
 	.buying {
+		margin: 0 30px;
+	}
+	.bottom-menu--container {
 		margin: 0 30px;
 	}
 	

@@ -46,7 +46,7 @@ gulp.task("njk", function() {
 			data: {
                 data: JSON.parse(fs.readFileSync('src/njk/helpers/data.json').toString())
             }
-		}))
+        }))
 		.pipe(gulp.dest("build"))
 		.on('end', reload);
 });

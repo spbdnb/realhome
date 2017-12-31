@@ -7,7 +7,7 @@
 			<nav class="top-navigation--menu">
 				<ul>
 					{% for link, title in data.nav %}
-					<li><a href="{{link}}.html" {% if link==page %}class="active"{% endif %}>{{ title }}</a></li>
+					<li><a href="{{link}}.html" {% if link==page %}class="active-top-navigation"{% endif %}>{{ title }}</a></li>
 					{% endfor %}
 					<ul class="top-navigation--menu-social">
 						<li><a href="https://www.facebook.com/" class="icon icon-facebook" target="_blank"></a></li>
