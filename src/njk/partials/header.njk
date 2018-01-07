@@ -1,4 +1,4 @@
-<header>	
+<header class="top">	
 	<div class="row">
 		<div class="top-navigation">
 			<h1 class="top-navigation--logo">
@@ -9,12 +9,14 @@
 					{% for link, title in data.nav %}
 					<li><a href="{{link}}.html" {% if link==page %}class="active-top-navigation"{% endif %}>{{ title }}</a></li>
 					{% endfor %}
-					<ul class="top-navigation--menu-social">
-						<li><a href="https://www.facebook.com/" class="icon icon-facebook" target="_blank"></a></li>
-						<li><a href="https://www.pinterest.com/" class="icon icon-pinterest" target="_blank"></a></li>
-						<li><a href="https://www.instagram.com/" class="icon icon-instagram" target="_blank"></a></li>
-						<li><a href="https://plus.google.com/" class="icon icon-google-plus3" target="_blank"></a></li>
-					</ul>
+					<li class="top-navigation--menu-social">
+						<ul>
+							<li><a href="https://www.facebook.com/" class="icon icon-facebook" target="_blank"></a></li>
+							<li><a href="https://www.pinterest.com/" class="icon icon-pinterest" target="_blank"></a></li>
+							<li><a href="https://www.instagram.com/" class="icon icon-instagram" target="_blank"></a></li>
+							<li><a href="https://plus.google.com/" class="icon icon-google-plus3" target="_blank"></a></li>
+						</ul>
+					</li>
 				</ul>
 			</nav>
 		</div>

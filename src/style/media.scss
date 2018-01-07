@@ -3,7 +3,7 @@
 /* Large Devices, Wide Screens */
 @media screen and (max-width : 1200px) {
 	.top-navigation {
-  		margin: 30px 40px;
+  		margin: 31px 60px;
 	}
 	.top-navigation--menu a {
 		padding: 30px 20px;
@@ -68,6 +68,13 @@
 	.bottom-menu--container {
 		margin: 0 100px;
 	}
+	.contacts-email-wrap {
+		float: none;
+		width: 50%;
+		margin-top: 0;
+		margin-right: 0;
+		margin-bottom: 50px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -93,7 +100,7 @@
 		font-size: 16px;
 	}
 	.top-navigation {
-  		margin: 20px 20px;
+  		margin: 20px 30px;
 	}
 	.top-navigation--menu a {
 		padding: 20px 10px;
@@ -236,6 +243,10 @@
 	.bottom-menu--contacts p {
 		margin-bottom: 10px;
 	}
+	.team--post {
+		width: 46%;
+		margin: 1.5%;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -259,7 +270,7 @@
 	}
 	.top-navigation--logo {
 		margin-top: 13px;
-		margin-left: 20px;
+		margin-left: 60px;
 	}
 	.carousel-caption--btn {
 		font-size: 14px;
@@ -384,9 +395,34 @@
 	.bottom-menu--container {
 		margin: 0 60px;
 	}
+	.about--navigation-title {
+		font-size: 2.2em;
+	}
+	.about--info-text p {
+		margin-bottom: 15px;
+		font-size: 0.9em;
+		line-height: 1.3em;
+		text-align: center;
+	}
+	.about--description-content {
+		margin-bottom: 40px;
+	}
+	.team--title {
+		font-size: 2.0em;
+	}
+	.team--title-link {
+		line-height: 40px;
+		font-size: 16px;
+	}
+	.contacts-email-wrap {
+		width: 70%;
+	}
 }
 /* Extra Small Devices, Phones */
 @media screen and (max-width : 480px) {
+	.top-navigation--logo {
+		margin-left: 40px;
+	}
 	.carousel-point {
    		bottom: 120px;
   	}
@@ -511,10 +547,50 @@
 		float: left;
 		text-align: left;
 	}
+	.about--navigation-title {
+		font-size: 1.8em;
+		text-align: center;
+	}
+	.about--info-img {
+		float: none;
+		width: 100%;
+	}
+	.about--info-img img {
+		width: 100%;
+		height: auto;
+		margin-bottom: 10px;
+	}
+	.about--description-content {
+		margin-bottom: 40px;
+	}
+	.team--title {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	.team--title-link {
+		text-align: center;
+		width: 100%;
+	}
+	.team--post {
+		width: 100%;
+		margin: 0;
+		float: none;
+		margin-bottom: 30px;
+	}
+	.team--post:last-child {
+		margin-bottom: 0;
+	}
+	.contacts-email-wrap {
+		width: 90%;
+	}
 }
 
 /* Custom, iPhone Retina */
 @media screen and (max-width : 320px) {
+	.top-navigation--logo {
+		margin-left: 30px;
+	}
 	.carousel-point {
     	bottom: 100px;
   }
